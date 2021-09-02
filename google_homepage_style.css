@@ -1,17 +1,43 @@
 .navbar {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
 }
 
 .navbar-element {
-    list-style-type: none;
+    list-style: none;
+}
+
+li {
     display: inline-block;
 }
 
-#nav-first {
-    display: flex;
-    justify-content: flex-start;
+.nav-start {
+
+}
+
+.nav-end {
+
 }
 
 #foogle {
+    display: block;
+    width: 350px;
+    height: auto;
+    margin: auto;
+}
 
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 1rem;
 }
