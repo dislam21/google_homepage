@@ -1,0 +1,1 @@
+This project is to recreate the google homepage. It is solely aesthetic and does not require functionality. It is to test front end html and css coding and to understand the basics of web page design. It is being completed as an assignment done on "the Odin Project" coding course. 
