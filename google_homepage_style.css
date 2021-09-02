@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+}
+
+.navbar-element {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nav-first {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#foogle {
+
+}
