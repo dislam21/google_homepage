@@ -10,36 +10,41 @@
    <main>
        <header>
            <nav class="navbar">
-               <ul class="navbar-element">
-                   <li id="nav-start">
-                     <a class="nav-start">About</a>
+               <ul id="navbar-front">
+                   <li id="about">
+                     <a>About</a>
                    </li>
-                   <li id="nav-start">
-                     <a class="navbar-link">Store</a>
+                   <li id="Store">
+                     <a>Store</a>
                    </li>
-                   <li id="nav-end">
-                     <a class="navbar-link">Gmail</a>
-                   </li>
-                   <li id="nav-end">
-                     <a class="navbar-link">Images</a>
-                   </li>
-                   <li id="nav-end">
-                   </li>
-                   <li id="nav-end">
-                     <button type="button">Sign in</button>
+               </ul>
+               <ul id="navbar-end">
+                  <li>
+                   <button id="sign-in" type="button">Sign in</button>
+                  </li>
+                  <li>
+                    <a><img class="grid" src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png" title="Google apps"></a>
+                  </li>
+                  <li id="images">
+                    <a>Images</a>
+                  </li>
+                   <li id="Gmail">
+                     <a>Gmail</a>
                    </li>
                 </ul>
             </nav>
         </header>
         
+          <div id="image-container">
             <img id="foogle" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png" alt="fake google logo image placeholder">
+          </div>
 
         <div id="search">
-            <input type="text" id="search-bar">
+            <input type="text" id="search-bar" placeholder="Search Google">
         </div>
         <div id="search-buttons">
-            <button class="button" type="button" value="google-search">Google Search</button>
-            <button class="button" type="button" value="im-feeling-lucky">I'm Feeling Lucky</button>
+            <button class="search-button" type="button" value="google-search">Google Search</button>
+            <button class="lucky-button" type="button" value="im-feeling-lucky">I'm Feeling Lucky</button>
         </div>
 
     </main>
